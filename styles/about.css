@@ -1,0 +1,30 @@
+.about-container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+h2{
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.about-container p{
+  font-size: 14px;
+  max-width: 350px;
+  text-align: center;
+  color: #ACACAC;
+}
+
+.about-container span{
+  color: #55FCD5;
+}
+
+.service p{
+  font-size: 12px;
+}
