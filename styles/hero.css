@@ -89,6 +89,11 @@ small{
   border: none;
 }
 
+.btn-bar svg{
+  height: 30px;
+  width: 30px;
+}
+
 .btn{
   width: 200px;
   height: 50px;
@@ -101,6 +106,10 @@ small{
   border-radius: 10px;
   color: white;
   font-weight: 600;
+}
+
+.btn svg{
+  fill: white;
 }
 
 .odd{
