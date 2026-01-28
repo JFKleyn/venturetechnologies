@@ -1,0 +1,68 @@
+.our-process{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+
+.header-process{
+  display: grid;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-process p{
+  max-width: 260px;
+}
+
+.process{
+  padding: 20px;
+  width: 200px;
+  height: 180px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  background-color: #124a9d13;
+  position: relative;
+}
+
+.process p{
+  text-align: left;
+}
+
+.num{
+  font-size: 48px;
+  color: #40FEFE;
+  font-weight: 500;
+}
+
+.timeline {
+  position: absolute;
+  left: 50%;
+  top: 172px;
+  bottom: 300px;
+  width: 1px;
+
+  display: block;
+  height: 880px;
+  background-color: #40fefe32;
+}
+
+.process::before{
+  content: "";
+  position: absolute;
+  top: 48px;              /* aligns with your number */
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  background: #40FEFE;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
