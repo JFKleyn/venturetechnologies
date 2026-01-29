@@ -51,6 +51,10 @@
   gap: 20px;
 }
 
+.contact p {
+  text-decoration: none;
+}
+
 .op{
   display: flex;
   flex-direction: row;
