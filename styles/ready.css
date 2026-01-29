@@ -1,0 +1,25 @@
+.ready{
+  padding: 100px 40px;
+  align-items: center;
+}
+
+.ready-container{
+  height: 400px;
+  max-width: 370px;
+  padding: 40px;
+  display: grid;
+  text-align: center;
+  gap: 30px;
+  border: 1px solid #40FEFE;
+  border-radius: 20px;
+  background-color: #40fefe15;
+  place-items: center;
+}
+
+.ready-container h2{
+  font-size: 30px;
+}
+
+.ready-container p{
+  font-size: 16px;
+}
