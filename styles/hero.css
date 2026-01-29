@@ -31,6 +31,7 @@ body{
   justify-content: space-between;
   padding: 0px 20px;
   z-index: 1000;
+  border-bottom: 0.2px solid #acacac2b;
 }
 
 svg{
@@ -67,7 +68,7 @@ h1{
 }
 
 .accent {
-  background: linear-gradient(90deg,#219998,#46E6C6);
+  background: linear-gradient(90deg,#40FEFE,#8ffdfd);
   background-clip: text;
   color: transparent;
 }
@@ -101,7 +102,7 @@ small{
   justify-content: center;
   align-items: center;
   gap: 5px;
-  background: linear-gradient(90deg,#219998,#46E6C6);
+  background: linear-gradient(90deg,#48bcd6,#46d3e6);
   border: none;
   border-radius: 10px;
   color: white;
@@ -121,7 +122,7 @@ small{
   transform: rotate(315deg);
 }
 
-.diamond1{
+.diamond{
   position: absolute;
   width: 500px;
   height: 500px;
@@ -129,17 +130,14 @@ small{
   opacity: 0.05;
   position: absolute;
   overflow: unset;
+  
+}
+
+.one{
   transform: translate(15%, -25%);
 }
 
-.diamond2{
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, #55FCD5 0%, #0A0A0A 60%); 
-  opacity: 0.05;
-  position: absolute;
-  overflow: unset;
+.two{
   transform: translate(-15%, 25%);
 }
 
