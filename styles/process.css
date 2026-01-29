@@ -6,6 +6,7 @@
   align-items: center;
   gap: 40px;
   position: relative;
+  padding-bottom: 200px;
 }
 
 .header-process{
@@ -66,3 +67,17 @@
   transform: translateX(-50%);
   z-index: 2;
 }
+
+.three{
+  transform: translateY(-100%);
+}
+
+.four{
+  transform: translateY(0%);
+}
+
+.five{
+  transform: translateY(100%);
+}
+
+
