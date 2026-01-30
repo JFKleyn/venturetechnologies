@@ -34,6 +34,34 @@ body{
   border-bottom: 0.2px solid #acacac2b;
 }
 
+.dropdown{
+  position: fixed;
+  background-color: #0B0B0B;
+  width: 100%;
+  opacity: 0;
+  z-index:-1;
+  transition: opacity 200ms ease;
+  border-bottom: 0.2px solid #acacac2b;
+  padding: 20px;
+}
+
+.dropdown-bar{
+  display: grid;
+  gap: 15px;
+}
+
+.dropdown a{
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #40FEFE;
+}
+
+.show{
+  opacity: 1;
+  z-index: 20;
+}
+
 svg{
   height: 25px;
   width: 25px;
@@ -51,6 +79,7 @@ svg{
   gap: 25px;
   overflow: hidden;
   margin-top: 80px;
+  opacity: 1;
 }
 
 .hero-container::before {
@@ -85,7 +114,7 @@ small{
   color: #636363;
 }
 
-.btn-bar{
+#btn-bar{
   background: none;
   border: none;
 }
@@ -107,6 +136,7 @@ small{
   border-radius: 10px;
   color: white;
   font-weight: 600;
+  font-size: 14px;
 }
 
 .btn svg{
@@ -127,7 +157,7 @@ small{
   width: 500px;
   height: 500px;
   background: radial-gradient(circle, #55FCD5 0%, #0A0A0A 70%); 
-  opacity: 0.05;
+  opacity: 0.10;
   position: absolute;
   overflow: unset;
   
@@ -141,5 +171,32 @@ small{
   transform: translate(-15%, 25%);
 }
 
+/* HERO: force the hero lines to be hidden first (even if other CSS exists) */
+.hero-container .hero-line {
+  opacity: 0 ;
+  transform: translateY(24px) ;
+  filter: blur(6px) ;
+  transition: opacity 700ms ease, transform 700ms ease, filter 700ms ease;
+  will-change: opacity, transform, filter;
+}
 
+/* keep your layout intact */
+.hero-container h1 .hero-line { display: block; }
+.hero-container button.hero-line { display: flex; }
 
+/* HERO: revealed */
+.hero-container .hero-line.is-in {
+  opacity: 1 ;
+  transform: translateY(0) ;
+  filter: blur(0) ;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .hero-container .hero-line {
+    transition: none;
+    opacity: 1 ;
+    transform: none ;
+    filter: none ;
+  }
+}
