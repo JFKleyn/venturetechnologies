@@ -28,7 +28,9 @@
 
 .service p{
   text-align: left;
+  font-size: 14px;
 }
+
 
 .icon{
   height: 40px;
@@ -48,7 +50,7 @@ h3{
 }
 
 .learn-more{
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
   display: flex;
