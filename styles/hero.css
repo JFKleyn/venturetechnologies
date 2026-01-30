@@ -175,7 +175,6 @@ small{
 .hero-container .hero-line {
   opacity: 0 ;
   transform: translateY(24px) ;
-  filter: blur(6px) ;
   transition: opacity 700ms ease, transform 700ms ease, filter 700ms ease;
   will-change: opacity, transform, filter;
 }
@@ -188,7 +187,6 @@ small{
 .hero-container .hero-line.is-in {
   opacity: 1 ;
   transform: translateY(0) ;
-  filter: blur(0) ;
 }
 
 /* Reduced motion */
