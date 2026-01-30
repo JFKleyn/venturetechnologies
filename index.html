@@ -16,26 +16,43 @@
 <body>
   <div class="nav-bar">
     <img src="images/Logo.webp" class="logo" alt="">
-    <button class="btn-bar">
+    <button id="btn-bar">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"/></svg>
     </button>
   </div>
+  <div id="box" class="dropdown">
+    <nav class="dropdown-bar">
+        <a href="" id="ourdirector">Home</a>
+        <a href="" id="ourdirector">Services</a>
+        <a href="" id="contactus">Process</a>
+        <a href="" id="gallery">About</a>
+        <!-- <a href="" id="gallery">Web Design</a>
+        <a href="" id="gallery">Web Development</a>
+        <a href="" id="gallery">Performace & Optimization</a>
+        <a href="" id="gallery">Support & Maintenance</a> -->
+        <a href="" id="gallery">Our Work</a>
+        <a href="" id="gallery">Our Director</a>
+        <a href="" id="gallery">Contact Us</a>
+    </nav>
+  </div>
   <div class="hero-container">
     <h1>
-      Building Digital Experiences That <span class="accent">Drive </span><span class="accent">Growth</span>
+      <span class="hero-line">Building Digital</span>
+      <span class="hero-line">Experiences That<span class="accent"> Drive</span></span>
+      <span class="hero-line"><span class="accent">Growth</span></span>
     </h1>
-    <p>
+    <p class="hero-line">
       We create premium web solutions that combine strategic
       thinking, cutting-edge technology, and exceptional design to help your business thrive
     </p>
-    <small>
+    <small class="hero-line">
       Based in South Africa • Working Globally 
     </small>
-    <button class="btn">
+    <button class="btn hero-line">
       Book a Consultation
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
     </button>
-    <button class="btn odd">
+    <button class="btn odd hero-line">
       View Our Work
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
     </button>
@@ -44,21 +61,21 @@
   </div>
 
   <div class="about-container">
-    <h2>About Venture</h2>
-    <p>We're a forward-thinking digital technology company specializing in creating sophisticated web solutions that drive measurable results. Our approach combines strategic planning, technical excellence, and user-centered design to deliver experiences that don't just look great—they perform.</p>
+    <h2 class="reveal">About Venture</h2>
+    <p class="reveal">We're a forward-thinking digital technology company specializing in creating sophisticated web solutions that drive measurable results. Our approach combines strategic planning, technical excellence, and user-centered design to deliver experiences that don't just look great—they perform.</p>
 
-    <p>Whether you're launching a new venture or scaling an established enterprise, we build digital foundations designed for <span>long-term success and growth.</span></p>
+    <p class="reveal">Whether you're launching a new venture or scaling an established enterprise, we build digital foundations designed for <span>long-term success and growth.</span></p>
   </div>
 
 <!-- ---------------------------------------------------------------------------------------------------------- -->
 
   <div class="services-container">
-    <div class="header-services">
+    <div class="header-services reveal">
       <h2>Our Services</h2>
       <p>Comprehensive digital solutions tailored to your unique needs</p>
     </div> 
-    <div class="services">
-      <div class="service">
+    <div class="services ">
+      <div class="service reveal">
         <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M576 320C576 320.9 576 321.8 576 322.7C575.6 359.2 542.4 384 505.9 384L408 384C381.5 384 360 405.5 360 432C360 435.4 360.4 438.7 361 441.9C363.1 452.1 367.5 461.9 371.8 471.8C377.9 485.6 383.9 499.3 383.9 513.8C383.9 545.6 362.3 574.5 330.5 575.8C327 575.9 323.5 576 319.9 576C178.5 576 63.9 461.4 63.9 320C63.9 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320zM192 352C192 334.3 177.7 320 160 320C142.3 320 128 334.3 128 352C128 369.7 142.3 384 160 384C177.7 384 192 369.7 192 352zM192 256C209.7 256 224 241.7 224 224C224 206.3 209.7 192 192 192C174.3 192 160 206.3 160 224C160 241.7 174.3 256 192 256zM352 160C352 142.3 337.7 128 320 128C302.3 128 288 142.3 288 160C288 177.7 302.3 192 320 192C337.7 192 352 177.7 352 160zM448 256C465.7 256 480 241.7 480 224C480 206.3 465.7 192 448 192C430.3 192 416 206.3 416 224C416 241.7 430.3 256 448 256z"/></svg>
         </div>
@@ -71,7 +88,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
         </button>
       </div>
-      <div class="service">
+      <div class="service reveal">
         <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M392.8 65.2C375.8 60.3 358.1 70.2 353.2 87.2L225.2 535.2C220.3 552.2 230.2 569.9 247.2 574.8C264.2 579.7 281.9 569.8 286.8 552.8L414.8 104.8C419.7 87.8 409.8 70.1 392.8 65.2zM457.4 201.3C444.9 213.8 444.9 234.1 457.4 246.6L530.8 320L457.4 393.4C444.9 405.9 444.9 426.2 457.4 438.7C469.9 451.2 490.2 451.2 502.7 438.7L598.7 342.7C611.2 330.2 611.2 309.9 598.7 297.4L502.7 201.4C490.2 188.9 469.9 188.9 457.4 201.4zM182.7 201.3C170.2 188.8 149.9 188.8 137.4 201.3L41.4 297.3C28.9 309.8 28.9 330.1 41.4 342.6L137.4 438.6C149.9 451.1 170.2 451.1 182.7 438.6C195.2 426.1 195.2 405.8 182.7 393.3L109.3 320L182.6 246.6C195.1 234.1 195.1 213.8 182.6 201.3z"/></svg>
         </div>
@@ -84,7 +101,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
         </button>
       </div>
-      <div class="service">
+      <div class="service reveal">
         <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M128 320L156.5 92C158.5 76 172.1 64 188.3 64L356.9 64C371.9 64 384 76.1 384 91.1C384 94.3 383.4 97.6 382.3 100.6L336 224L475.3 224C495.5 224 512 240.4 512 260.7C512 268.1 509.8 275.3 505.6 281.4L313.4 562.4C307.5 571 297.8 576.1 287.5 576.1L284.6 576.1C268.9 576.1 256.1 563.3 256.1 547.6C256.1 545.3 256.4 543 257 540.7L304 352L160 352C142.3 352 128 337.7 128 320z"/></svg>
         </div>
@@ -97,7 +114,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
         </button>
       </div>
-      <div class="service">
+      <div class="service reveal">
         <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M160 288C160 199.6 231.6 128 320 128C408.4 128 480 199.6 480 288L480 325.5C470 322 459.2 320 448 320L432 320C405.5 320 384 341.5 384 368L384 496C384 522.5 405.5 544 432 544L448 544C501 544 544 501 544 448L544 288C544 164.3 443.7 64 320 64C196.3 64 96 164.3 96 288L96 448C96 501 139 544 192 544L208 544C234.5 544 256 522.5 256 496L256 368C256 341.5 234.5 320 208 320L192 320C180.8 320 170 321.9 160 325.5L160 288z"/></svg>
         </div>
@@ -116,11 +133,11 @@
 <!-- ---------------------------------------------------------------------------------------------------------- -->
 
   <div class="choose-us">
-    <div class="choose-us-header">
+    <div class="choose-us-header reveal">
       <h2>Why Choose Us</h2>
       <p>The Venture Difference</p>
     </div>
-    <div class="reason">
+    <div class="reason reveal">
       <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
           <path d="M14.3018 0.204355C14.7722 0.54646 14.8775 1.20435 14.5354 1.67475L6.11431 13.2537C5.93339 13.5037 5.65378 13.6583 5.34457 13.6846C5.03536 13.7109 4.73602 13.5958 4.51891 13.3787L0.308388 9.16817C-0.102796 8.75699 -0.102796 8.08922 0.308388 7.67804C0.719572 7.26685 1.38734 7.26685 1.79852 7.67804L5.13734 11.0169L12.8347 0.434618C13.1768 -0.0357768 13.8347 -0.14104 14.3051 0.201065L14.3018 0.204355Z" fill="#40FEFE"/>
@@ -129,7 +146,7 @@
       <h3>Reliable & Scalable</h3>
       <p>Built to grow with your business, from startup to enterprise</p>
     </div>
-    <div class="reason">
+    <div class="reason reveal">
       <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
           <path d="M9.23125 1.15625L9.69375 2.30625L10.8438 2.76875C10.9375 2.80625 11 2.9 11 3C11 3.1 10.9375 3.19375 10.8438 3.23125L9.69375 3.69375L9.23125 4.84375C9.19375 4.9375 9.1 5 9 5C8.9 5 8.80625 4.9375 8.76875 4.84375L8.30625 3.69375L7.15625 3.23125C7.0625 3.19375 7 3.1 7 3C7 2.9 7.0625 2.80625 7.15625 2.76875L8.30625 2.30625L8.76875 1.15625C8.80625 1.0625 8.9 1 9 1C9.1 1 9.19375 1.0625 9.23125 1.15625ZM4.45937 3.30312L5.13125 4.86875L6.69688 5.54063C6.88125 5.61875 7 5.8 7 6C7 6.2 6.88125 6.38125 6.69688 6.45937L5.13125 7.13125L4.45937 8.69687C4.38125 8.88125 4.2 9 4 9C3.8 9 3.61875 8.88125 3.54063 8.69687L2.86875 7.13125L1.30313 6.45937C1.11875 6.38125 1 6.2 1 6C1 5.8 1.11875 5.61875 1.30313 5.54063L2.86875 4.86875L3.54063 3.30312C3.61875 3.11875 3.8 3 4 3C4.2 3 4.38125 3.11875 4.45937 3.30312ZM15.5 11.5C15.7 11.5 15.8813 11.6188 15.9594 11.8031L16.6313 13.3687L18.1969 14.0406C18.3812 14.1187 18.5 14.3 18.5 14.5C18.5 14.7 18.3812 14.8813 18.1969 14.9594L16.6313 15.6313L15.9594 17.1969C15.8813 17.3812 15.7 17.5 15.5 17.5C15.3 17.5 15.1187 17.3812 15.0406 17.1969L14.3687 15.6313L12.8031 14.9594C12.6188 14.8813 12.5 14.7 12.5 14.5C12.5 14.3 12.6188 14.1187 12.8031 14.0406L14.3687 13.3687L15.0406 11.8031C15.1187 11.6188 15.3 11.5 15.5 11.5ZM15.375 2C15.7188 2 16.05 2.1375 16.2969 2.38125L17.6187 3.70312C17.8625 3.95 18 4.28125 18 4.625C18 4.96875 17.8625 5.3 17.6187 5.54688L14.8625 8.30313L11.6969 5.1375L14.4531 2.38125C14.7 2.1375 15.0312 2 15.375 2ZM2.38125 14.4531L10.6375 6.19688L13.8031 9.3625L5.54688 17.6187C5.3 17.8625 4.96875 18 4.625 18C4.28125 18 3.95 17.8625 3.70312 17.6187L2.38125 16.2969C2.1375 16.05 2 15.7188 2 15.375C2 15.0312 2.1375 14.7 2.38125 14.4531Z" fill="#40FEFE"/>
@@ -138,7 +155,7 @@
       <h3>Clean Code</h3>
       <p>Maintainable, well-documented code that stands the test of time.</p>
     </div>
-    <div class="reason">
+    <div class="reason reveal">
       <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none">
         <path d="M0 9.5C0 11.9844 2.01562 14 4.5 14H14C16.2094 14 18 12.2094 18 10C18 8.3875 17.0469 6.99688 15.6719 6.36563C15.8812 5.95625 16 5.49062 16 5C16 3.34375 14.6562 2 13 2C12.4469 2 11.9313 2.15 11.4875 2.40938C10.7344 0.978125 9.23125 0 7.5 0C5.01562 0 3 2.01562 3 4.5C3 4.75 3.02187 4.99688 3.05937 5.23438C1.28125 5.83438 0 7.51875 0 9.5Z" fill="#40FEFE"/>
@@ -147,7 +164,7 @@
       <h3>Strategic Approach</h3>
       <p>Every decision backed by research, data, and industry best practices</p>
     </div>
-    <div class="reason">
+    <div class="reason reveal">
       <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M4.23502 9.00031H1.00064C0.222519 9.00031 -0.255606 8.15344 0.144394 7.48469L1.79752 4.72844C2.06939 4.27531 2.55689 4.00031 3.08502 4.00031H6.05377C8.43189 -0.0278139 11.9788 -0.230939 14.3506 0.115936C14.7506 0.175311 15.0631 0.487811 15.1194 0.884686C15.4663 3.25656 15.2631 6.80344 11.235 9.18156V12.1503C11.235 12.6784 10.96 13.1659 10.5069 13.4378L7.75064 15.0909C7.08502 15.4909 6.23502 15.0097 6.23502 14.2347V11.0003C6.23502 9.89719 5.33814 9.00031 4.23502 9.00031ZM12.735 4.00031C12.735 3.17219 12.0631 2.50031 11.235 2.50031C10.4069 2.50031 9.73502 3.17219 9.73502 4.00031C9.73502 4.82844 10.4069 5.50031 11.235 5.50031C12.0631 5.50031 12.735 4.82844 12.735 4.00031Z" fill="#40FEFE"/>
@@ -161,36 +178,36 @@
   <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
   <div class="our-process">
-    <div class="header-process">
+    <div class="header-process reveal">
       <h2>Our Process</h2>
       <p>A proven methodology for delivering exceptional results</p>
     </div> 
 
-    <div class="process">
+    <div class="process reveal">
       <div class="num">01</div>
       <h3>Discover</h3>
       <p>Understanding your goals and audience</p>
     </div>
 
-    <div class="process">
+    <div class="process reveal">
       <div class="num">02</div>
       <h3>Design</h3>
       <p>Crafting the perfect user experience</p>
     </div>
 
-    <div class="process">
+    <div class="process reveal">
       <div class="num">03</div>
       <h3>Build</h3>
       <p>Developing with precision and care</p>
     </div>
 
-    <div class="process">
+    <div class="process reveal">
       <div class="num">04</div>
       <h3>Launch</h3>
       <p>Deploying your solution seamlessly</p>
     </div>
 
-    <div class="process">
+    <div class="process reveal">
       <div class="num">05</div>
       <h3>Support</h3>
       <p>Ongoing optimization and maintenance</p>
@@ -203,7 +220,7 @@
     <div class="diamond five"></div>
   </div>
 
-  <div class="ready">
+  <div class="ready reveal">
     <div class="ready-container">
       <h2>Ready to Build Something Great?</h2>
       <p>Let's discuss how we can help bring your vision to life with a digital solution tailored to your goals.</p>
