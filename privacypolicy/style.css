@@ -1,0 +1,30 @@
+
+.pp-container{
+  margin-top: 80px;
+  display: grid;
+  gap: 40px;
+  padding: 32px;
+}
+
+.pp-section{
+  display: grid;
+  gap: 16px;
+}
+
+.pp-section p{
+  text-align: left;
+  line-height: 24px;
+  max-width: fit-content;
+}
+
+.pp-section h1{
+  text-align: left;
+}
+
+.table-container {
+  overflow-x: auto; 
+}
+
+.pp-section h2{
+  font-size: 28px;
+}

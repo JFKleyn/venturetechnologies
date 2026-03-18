@@ -1,0 +1,29 @@
+.reason .icon {
+  height: 50px;
+  width: 50px;
+}
+
+.choose-us{
+  padding: 40px 40px 250px 40px;
+  text-align: center;
+  display: grid;
+  gap: 60px;
+}
+
+.reason{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+.reason p{
+  max-width: 300px;
+}
+
+.choose-us-header{
+  display: grid;
+  flex-direction: column;
+  gap: 20px;
+}
