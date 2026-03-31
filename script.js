@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
+      console.log("submit fired");
 
       const firstname = form.querySelector("#firstname")?.value.trim() || "";
       const email = form.querySelector("#email")?.value.trim() || "";
