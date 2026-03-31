@@ -1,0 +1,199 @@
+
+.service-hero{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  overflow: hidden;
+  margin: 80px 0;
+  padding: 240px 0;
+  opacity: 1;
+}
+
+.service-hero p{
+  margin: 0 20px;
+  max-width: 560px;
+}
+
+ ul {
+  padding-left: 20px;
+}
+
+.process{
+  max-width: 500px;
+}
+
+.features svg{
+  fill: none;
+  height: 24px;
+  width: 24px;
+}
+
+.features{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.h33{
+  color: #40FEFE;
+}
+
+ li{
+  color: #ACACAC;
+}
+
+ li::marker{
+  color: #40FEFE;
+}
+
+small{
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+
+.deliverables{
+  display: grid;
+  gap: 10px;
+}
+
+.our-process{
+  margin-top: 80px;
+}
+
+#ourprocess{
+  scroll-margin-top: 100px;
+}
+
+#webdesign{
+  scroll-margin-top: 140px;
+}
+
+#webdevelopment{
+  scroll-margin-top: 140px;
+}
+
+#pando{
+  scroll-margin-top: 140px;
+}
+
+#sandm{
+  scroll-margin-top: 140px;
+}
+
+.six{
+  opacity: 0;
+}
+
+.seven{
+  opacity: 0;
+}
+
+.key-features{
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width:1024px) {
+   .three{
+  transform: translatey(-200%);
+}
+
+.four{
+  transform: translateY(-100%);
+}
+
+.five{
+  transform: translatey(0%);
+}
+
+.six{
+  opacity: 1;
+  transform: translatey(100%);
+}
+
+.seven{
+  opacity: 1;
+  transform: translatey(200%);
+}
+
+.process::before{
+  opacity: 1;
+}
+
+.process::after {
+  opacity: 1;
+}
+
+.process:nth-child(2){ right: 200px; }
+.process:nth-child(3){ left: 200px; }
+.process:nth-child(4){ right: 200px; }
+.process:nth-child(5){ left: 200px; }
+.process:nth-child(6){ right: 200px; }
+
+}
+
+@media (min-width: 1440px){
+
+  .services{
+    margin: 0 160px;
+  }
+
+  .service {
+    max-width: 920px;
+    padding: 32px;
+  } 
+
+  .service p{
+  font-size: 18px;
+}
+
+.service h3{
+  font-size: 40px;
+}
+
+.icon{
+  height: 60px;
+  width: 60px;
+}
+
+.service svg{
+  height: 32px;
+  width: 32px;
+}
+
+.service {
+  gap: 32px;
+}
+
+.h33{
+  font-size: 24px;
+}
+
+.services{
+  grid-template-columns: 1fr;
+  }
+
+  .service-hero p{
+  max-width: 720px;
+}
+
+.process small{
+  font-size: 16px;
+}
+
+.process p{
+  font-size: 22px;
+}
+
+.process h3{
+  font-size: 40px;
+}
+
+}
+
+
+

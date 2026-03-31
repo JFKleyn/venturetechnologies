@@ -1,0 +1,42 @@
+.ready{
+  padding: 0 40px 100px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.ready-container{
+  padding: 40px;
+  display: grid;
+  text-align: center;
+  gap: 30px;
+  border: 1px solid #333333;
+  border-radius: 20px;
+  background-color: #40fefe15;
+  place-items: center;
+  max-width: 620px;
+  transition: all 0.3s ease-in;
+}
+
+.ready-container:hover{
+  scale: 1.025;
+  border: 1px solid #40FEFE;
+}
+
+.read{
+  font-size: 18px;
+  transition: all 0.3s ease;
+  width: 240px;
+}
+
+
+
+.ready-container a{
+  transition: all 0.3s ease;
+}
+
+@media (min-width:1024px){
+  .ready-container{
+  
+  max-width: 800px;
+}
+}

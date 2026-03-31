@@ -1,0 +1,174 @@
+.our-process{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.header-process{
+  display: grid;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-process p{
+  max-width: 260px;
+}
+
+.process{
+  padding: 20px;
+  margin: 0 80px;
+  text-align: left;
+  display: grid;
+  gap: 10px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  background-color: #124a9d13;
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  max-width: 220px;
+  z-index: 4;
+  transition: all 0.3s ease;
+}
+
+.process:hover{
+  scale: 1.025;
+  border: 1px solid #40FEFE;
+}
+
+
+.process p{
+  text-align: left;
+  font-size: 16px;
+}
+
+.num{
+  font-size: 48px;
+  color: #40FEFE;
+  font-weight: 500;
+}
+
+.process::before{
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 40px;
+  width: 2px;
+  height: 80%;
+  background: linear-gradient(180deg, #40FEFE, #000000);
+}
+
+.process::after {
+  content: "";
+  position: absolute;
+  left: -36.5px;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  background: #40FEFE;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #40FEFE;
+}
+
+.three{
+  transform: translatey(-100%);
+}
+
+.four{
+  transform: translateY(0%);
+}
+
+.five{
+  transform: translatey(100%);
+}
+
+.process-container{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  margin: 0 20px;
+}
+
+@media (min-width:1024px) {
+  .about-container p{
+  max-width: 900px;
+  }
+
+  .process-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .header-process p{
+  max-width: 500px;
+}
+
+
+.process-container::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 130px;
+  width: 90%;
+  height: 2px;
+  background: #40fefe1e;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+  .process{
+  margin: 0 ;
+  }
+
+  .process::before{
+  opacity: 0;
+}
+
+.process::after {
+  opacity: 0;
+}
+
+  .three{
+  transform: translate(-80%, 15%);
+  
+  }
+
+.four{
+  transform: translateY(15%);
+  }
+
+.five{
+  transform: translate(80%, 15%);
+  } 
+}
+
+@media (min-width:1440px) {
+  .our-process{
+    gap: 80px;
+  }
+
+  .process-container{
+    gap: 40px;
+  }
+
+   .header-process p{
+  max-width: 1200px;
+}
+}
+
+@media (min-width:1920px) {
+
+  
+
+
+  .process-container{
+    gap: 60px;
+  }
+}
+
