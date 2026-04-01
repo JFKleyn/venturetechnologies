@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const tel = form.querySelector("#tel")?.value.trim() || "";
       const message = form.querySelector("#message")?.value.trim() || "";
 
-      if (!firstname || !email || !message) {
+      if (!firstname || !email || !tel || !message) {
         setStatus("Please fill in all required fields.", true);
         return;
       }
