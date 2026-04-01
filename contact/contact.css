@@ -309,7 +309,7 @@ button{
   max-width: 560px;
   margin: 0 auto;
   line-height: 1.7;
-  padding: 0;
+  padding-top: 160px;
 }
 
 .success-actions{
@@ -319,7 +319,7 @@ button{
 }
 
 .success-btn{
-  min-width: 240px;
+  min-width: 180px;
 }
 
 .primary-btn:hover{
